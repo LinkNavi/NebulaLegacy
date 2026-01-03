@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "dev/link/nebula/mixin/MixinGuiMainMenu": {
+      "initGui": "Lnet/minecraft/client/gui/GuiMainMenu;func_73866_w_()V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "dev/link/nebula/mixin/MixinGuiMainMenu": {
+        "initGui": "Lnet/minecraft/client/gui/GuiMainMenu;func_73866_w_()V"
+      }
+    }
+  }
+}

@@ -1,0 +1,120 @@
+[13:39:24] [main/INFO] (LaunchWrapper) Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[13:39:24] [main/INFO] (LaunchWrapper) Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[13:39:24] [main/INFO] (LaunchWrapper) Loading tweak class name org.spongepowered.asm.launch.MixinTweaker
+[13:39:24] [main/INFO] (mixin) SpongePowered MIXIN Subsystem Version=0.7.11 Source=file:/home/kirby/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.7.11-SNAPSHOT/7a670207bdb97db418118ad1e9bb42424ff3776d/mixin-0.7.11-SNAPSHOT.jar Service=LaunchWrapper Env=CLIENT
+[13:39:25] [main/INFO] (mixin) Attempting to load Fernflower decompiler (Threaded mode)
+[13:39:25] [main/INFO] (mixin) Fernflower could not be loaded, exported classes will not be decompiled. NoClassDefFoundError: org/jetbrains/java/decompiler/main/extern/IResultSaver
+[13:39:25] [main/INFO] (LaunchWrapper) Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[13:39:25] [main/INFO] (FML) Forge Mod Loader version 11.15.1.2318 for Minecraft 1.8.9 loading
+[13:39:25] [main/INFO] (FML) Java is OpenJDK 64-Bit Server VM, version 1.8.0_472, running on Linux:amd64:6.12.63-1-lts, installed at /usr/lib/jvm/java-8-openjdk/jre
+[13:39:25] [main/INFO] (FML) Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[13:39:25] [main/WARN] (FML) The coremod me.djtheredstoner.devauth.forge.legacy.DevAuthLoadingPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[13:39:25] [main/INFO] (LaunchWrapper) Calling tweak class org.spongepowered.asm.launch.MixinTweaker
+[13:39:25] [main/INFO] (mixin) Compatibility level set to JAVA_8
+[13:39:25] [main/INFO] (mixin) Preparing mixins for MixinEnvironment[PREINIT]
+[13:39:25] [main/INFO] (mixin) Initialised Mixin FML Remapper Adapter with net.minecraftforge.fml.common.asm.transformers.deobf.FMLDeobfuscatingRemapper@36804139
+[13:39:25] [main/INFO] (LaunchWrapper) Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[13:39:25] [main/INFO] (LaunchWrapper) Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[13:39:25] [main/INFO] (LaunchWrapper) Loading tweak class name org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[13:39:25] [main/INFO] (LaunchWrapper) Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[13:39:25] [main/INFO] (LaunchWrapper) Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[13:39:25] [main/INFO] (LaunchWrapper) Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[13:39:25] [main/ERROR] (FML) The binary patch set is missing. Either you are in a development environment, or things are not going to work!
+[13:39:25] [main/ERROR] (FML) FML appears to be missing any signature data. This is not a good thing
+[13:39:25] [main/INFO] (LaunchWrapper) Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[13:39:25] [main/INFO] (LaunchWrapper) Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[13:39:25] [main/INFO] (LaunchWrapper) Calling tweak class org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[13:39:25] [main/INFO] (LaunchWrapper) Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[13:39:25] [main/INFO] (mixin) Preparing mixins for MixinEnvironment[INIT]
+[13:39:25] [main/INFO] (LaunchWrapper) Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[13:39:25] [main/INFO] (LaunchWrapper) Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[13:39:25] [main/INFO] (mixin) Preparing mixins for MixinEnvironment[DEFAULT]
+[13:39:25] [main/INFO] (mixin) Selecting config mixins.nebula.json
+[13:39:25] [main/INFO] (mixin) Remapping refMap mixins.nebula.refmap.json using /home/kirby/.gradle/caches/essential-loom/1.8.9/de.oceanlabs.mcp.mcp_stable.1_8_9.22-1.8.9-forge-1.8.9-11.15.1.2318-1.8.9/mappings-srg-named.srg
+[13:39:25] [main/INFO] (mixin) Preparing mixins.nebula.json (0)
+[13:39:25] [main/INFO] (STDOUT) [dev.link.nebula.init.AutoDiscoveryMixinPlugin:getMixins:112]: Trying to discover mixins
+[13:39:25] [main/INFO] (STDOUT) [dev.link.nebula.init.AutoDiscoveryMixinPlugin:getMixins:115]: Found classes at file:/home/kirby/Programming/NebulaLegacy/build/classes/java/main/dev/link/nebula/init/AutoDiscoveryMixinPlugin.class
+[13:39:25] [main/INFO] (STDOUT) [dev.link.nebula.init.AutoDiscoveryMixinPlugin:getMixins:122]: Base directory found at /home/kirby/Programming/NebulaLegacy/build/classes/java/main
+[13:39:25] [main/INFO] (STDOUT) [dev.link.nebula.init.AutoDiscoveryMixinPlugin:walkDir:139]: Trying to find mixins from directory
+[13:39:25] [main/INFO] (STDOUT) [dev.link.nebula.init.AutoDiscoveryMixinPlugin:getMixins:128]: Found mixins: [MixinGuiMainMenu]
+[13:39:25] [main/INFO] (LaunchWrapper) Launching wrapped minecraft {net.minecraft.client.main.Main}
+[13:39:25] [main/INFO] (DevAuth) DevAuth disabled, not logging in!
+[13:39:25] [main/INFO] (mixin) Mixing MixinGuiMainMenu from mixins.nebula.json into net.minecraft.client.gui.GuiMainMenu
+[13:39:26] [main/INFO] (STDOUT) [net.minecraft.client.main.Main:main:57]: Completely ignored arguments: [--mixin, mixins.nebula.json]
+[13:39:26] [main/INFO] (Minecraft) Setting user: Player159
+[13:39:27] [main/INFO] (Minecraft) LWJGL Version: 2.9.4
+[13:39:27] [main/INFO] (FML) Could not load splash.properties, will create a default one
+[13:39:27] [main/INFO] (STDOUT) [net.minecraftforge.fml.client.SplashProgress:start:246]: ---- Minecraft Crash Report ----
+// You're mean.
+
+Time: 1/3/26 1:39 PM
+Description: Loading screen debug info
+
+This is just a prompt for computer specs to be printed. THIS IS NOT A ERROR
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.8.9
+	Operating System: Linux (amd64) version 6.12.63-1-lts
+	Java Version: 1.8.0_472, Arch Linux
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Arch Linux
+	Memory: 337926112 bytes (322 MB) / 770179072 bytes (734 MB) up to 7451181056 bytes (7106 MB)
+	JVM Flags: 0 total; 
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: 
+	Loaded coremods (and transformers): 
+DevAuthLoadingPlugin (DevAuth-forge-legacy-1.2.1.jar)
+  me.djtheredstoner.devauth.forge.legacy.ClassTransformer
+	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 580.119.02' Renderer: 'NVIDIA GeForce GTX 1080/PCIe/SSE2'
+[13:39:27] [main/INFO] (FML) MinecraftForge v11.15.1.2318 Initialized
+[13:39:27] [main/INFO] (FML) Replaced 229 ore recipies
+[13:39:27] [main/INFO] (FML) Found 0 mods from the command line. Injecting into mod discoverer
+[13:39:27] [main/INFO] (FML) Searching /home/kirby/Programming/NebulaLegacy/run/mods for mods
+[13:39:27] [main/WARN] (nebula) Mod nebula is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.0.0
+[13:39:28] [main/INFO] (FML) Forge Mod Loader has identified 4 mods to load
+[13:39:28] [main/INFO] (FML) Attempting connection with missing mods [mcp, FML, Forge, nebula] at CLIENT
+[13:39:28] [main/INFO] (FML) Attempting connection with missing mods [mcp, FML, Forge, nebula] at SERVER
+[13:39:28] [main/INFO] (Minecraft) Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Xample Mod
+[13:39:28] [main/INFO] (FML) Processing ObjectHolder annotations
+[13:39:28] [main/INFO] (FML) Found 384 ObjectHolder annotations
+[13:39:28] [main/INFO] (FML) Identifying ItemStackHolder annotations
+[13:39:28] [main/INFO] (FML) Found 0 ItemStackHolder annotations
+[13:39:28] [main/INFO] (FML) Configured a dormant chunk cache size of 0
+[13:39:28] [main/INFO] (FML) Applying holder lookups
+[13:39:28] [Forge Version Check/INFO] (ForgeVersionCheck) [Forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[13:39:28] [main/INFO] (FML) Holder lookups applied
+[13:39:28] [main/INFO] (FML) Injecting itemstacks
+[13:39:28] [main/INFO] (FML) Itemstack injection complete
+[13:39:28] [main/INFO] (STDOUT) [tv.twitch.StandardCoreAPI:<init>:16]: If on Windows, make sure to provide all of the necessary dll's as specified in the twitchsdk README. Also, make sure to set the PATH environment variable to point to the directory containing the dll's.
+[13:39:28] [main/ERROR] (Minecraft) Couldn't initialize twitch stream
+[13:39:28] [Sound Library Loader/INFO] (Minecraft) Starting up SoundSystem...
+[13:39:28] [Thread-5/INFO] (Minecraft) Initializing LWJGL OpenAL
+[13:39:28] [Thread-5/INFO] (Minecraft) (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[13:39:28] [Thread-5/INFO] (Minecraft) OpenAL initialized.
+[13:39:29] [Sound Library Loader/INFO] (Minecraft) Sound engine started
+[13:39:29] [main/INFO] (FML) Max texture size: 16384
+[13:39:29] [main/INFO] (Minecraft) Created: 16x16 textures-atlas
+[13:39:29] [main/INFO] (STDOUT) [dev.link.nebula.ExampleMod:init:12]: Dirt: tile.dirt
+[13:39:29] [main/INFO] (STDOUT) [dev.link.nebula.ExampleMod:init:14]: Color State: net.minecraft.client.renderer.GlStateManager$Color@3f2f5454
+[13:39:30] [main/INFO] (FML) Injecting itemstacks
+[13:39:30] [main/INFO] (FML) Itemstack injection complete
+[13:39:30] [main/INFO] (FML) Forge Mod Loader has successfully loaded 4 mods
+[13:39:30] [main/INFO] (Minecraft) Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Xample Mod
+[13:39:30] [main/INFO] (Minecraft) SoundSystem shutting down...
+[13:39:30] [main/WARN] (Minecraft) Author: Paul Lamb, www.paulscode.com
+[13:39:30] [Sound Library Loader/INFO] (Minecraft) Starting up SoundSystem...
+[13:39:30] [Thread-7/INFO] (Minecraft) Initializing LWJGL OpenAL
+[13:39:30] [Thread-7/INFO] (Minecraft) (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[13:39:30] [Thread-7/INFO] (Minecraft) OpenAL initialized.
+[13:39:30] [Sound Library Loader/INFO] (Minecraft) Sound engine started
+[13:39:31] [main/INFO] (FML) Max texture size: 16384
+[13:39:31] [main/INFO] (Minecraft) Created: 512x512 textures-atlas
+[13:39:31] [main/INFO] (STDOUT) [net.minecraft.client.gui.GuiMainMenu:handler$onInitGui$zza000:643]: Hello from Main Menu!
+[13:39:31] [Thread-4/INFO] (STDOUT) [net.minecraft.client.gui.GuiMainMenu:handler$onInitGui$zza000:643]: Hello from Main Menu!
+[13:39:34] [main/INFO] (Minecraft) Stopping!
+[13:39:34] [main/INFO] (Minecraft) SoundSystem shutting down...
+[13:39:34] [main/WARN] (Minecraft) Author: Paul Lamb, www.paulscode.com
