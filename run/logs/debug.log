@@ -643,3 +643,35 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING
 [21:45:04] [Server thread/DEBUG] (FML) Gathering id map for writing to world save New World
 [21:45:05] [Server thread/INFO] (net.minecraft.server.MinecraftServer) Saving chunks for level 'New World'/Nether
 [21:45:05] [Server thread/INFO] (net.minecraft.server.MinecraftServer) Saving chunks for level 'New World'/The End
+[21:47:11] [main/INFO] (net.minecraft.client.Minecraft) Stopping!
+[21:47:11] [main/INFO] (net.minecraft.client.audio.SoundManager) SoundSystem shutting down...
+[21:47:11] [Server thread/DEBUG] (FML) Bar Step: ServerStopping - Minecraft Coder Pack took 0.000s
+[21:47:11] [Server thread/DEBUG] (FML) Bar Step: ServerStopping - Forge Mod Loader took 0.000s
+[21:47:11] [Server thread/DEBUG] (FML) Bar Step: ServerStopping - Minecraft Forge took 0.000s
+[21:47:11] [Server thread/DEBUG] (FML) Bar Step: ServerStopping - Xample Mod took 0.000s
+[21:47:11] [Server thread/DEBUG] (FML) Bar Finished: ServerStopping took 0.001s
+[21:47:11] [Server thread/INFO] (net.minecraft.server.MinecraftServer) Stopping server
+[21:47:11] [Server thread/INFO] (net.minecraft.server.MinecraftServer) Saving players
+[21:47:11] [Server thread/INFO] (net.minecraft.server.MinecraftServer) Saving worlds
+[21:47:11] [Server thread/INFO] (net.minecraft.server.MinecraftServer) Saving chunks for level 'New World'/Overworld
+[21:47:11] [Server thread/DEBUG] (FML) Gathering id map for writing to world save New World
+[21:47:11] [Server thread/INFO] (net.minecraft.server.MinecraftServer) Saving chunks for level 'New World'/Nether
+[21:47:11] [Server thread/INFO] (net.minecraft.server.MinecraftServer) Saving chunks for level 'New World'/The End
+[21:47:11] [Server thread/INFO] (FML) Unloading dimension 0
+[21:47:11] [Server thread/INFO] (FML) Unloading dimension -1
+[21:47:11] [Server thread/INFO] (FML) Unloading dimension 1
+[21:47:11] [Server thread/DEBUG] (FML) Reverting to frozen data state.
+[21:47:11] [Server thread/DEBUG] (FML) Bar Step: ModIdMapping - Minecraft Coder Pack took 0.000s
+[21:47:11] [Server thread/DEBUG] (FML) Bar Step: ModIdMapping - Forge Mod Loader took 0.000s
+[21:47:11] [Server thread/DEBUG] (FML) Bar Step: ModIdMapping - Minecraft Forge took 0.000s
+[21:47:11] [Server thread/DEBUG] (FML) Bar Step: ModIdMapping - Xample Mod took 0.000s
+[21:47:11] [Server thread/DEBUG] (FML) Bar Finished: ModIdMapping took 0.000s
+[21:47:11] [Server thread/INFO] (FML) Applying holder lookups
+[21:47:11] [Server thread/INFO] (FML) Holder lookups applied
+[21:47:11] [Server thread/DEBUG] (FML) Frozen state restored.
+[21:47:11] [Server thread/DEBUG] (FML) Bar Step: ServerStopped - Minecraft Coder Pack took 0.000s
+[21:47:11] [Server thread/DEBUG] (FML) Bar Step: ServerStopped - Forge Mod Loader took 0.000s
+[21:47:11] [Server thread/DEBUG] (FML) Bar Step: ServerStopped - Minecraft Forge took 0.000s
+[21:47:11] [Server thread/DEBUG] (FML) Bar Step: ServerStopped - Xample Mod took 0.000s
+[21:47:11] [Server thread/DEBUG] (FML) Bar Finished: ServerStopped took 0.000s
+[21:47:11] [main/WARN] (net.minecraft.client.audio.SoundManager) Author: Paul Lamb, www.paulscode.com

@@ -155,3 +155,17 @@ DevAuthLoadingPlugin (DevAuth-forge-legacy-1.2.1.jar)
 [21:45:04] [Server thread/INFO] (Minecraft) Saving chunks for level 'New World'/Overworld
 [21:45:05] [Server thread/INFO] (Minecraft) Saving chunks for level 'New World'/Nether
 [21:45:05] [Server thread/INFO] (Minecraft) Saving chunks for level 'New World'/The End
+[21:47:11] [main/INFO] (Minecraft) Stopping!
+[21:47:11] [main/INFO] (Minecraft) SoundSystem shutting down...
+[21:47:11] [Server thread/INFO] (Minecraft) Stopping server
+[21:47:11] [Server thread/INFO] (Minecraft) Saving players
+[21:47:11] [Server thread/INFO] (Minecraft) Saving worlds
+[21:47:11] [Server thread/INFO] (Minecraft) Saving chunks for level 'New World'/Overworld
+[21:47:11] [Server thread/INFO] (Minecraft) Saving chunks for level 'New World'/Nether
+[21:47:11] [Server thread/INFO] (Minecraft) Saving chunks for level 'New World'/The End
+[21:47:11] [Server thread/INFO] (FML) Unloading dimension 0
+[21:47:11] [Server thread/INFO] (FML) Unloading dimension -1
+[21:47:11] [Server thread/INFO] (FML) Unloading dimension 1
+[21:47:11] [Server thread/INFO] (FML) Applying holder lookups
+[21:47:11] [Server thread/INFO] (FML) Holder lookups applied
+[21:47:11] [main/WARN] (Minecraft) Author: Paul Lamb, www.paulscode.com
