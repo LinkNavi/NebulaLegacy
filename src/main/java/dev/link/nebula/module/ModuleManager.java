@@ -1,6 +1,12 @@
 package dev.link.nebula.module;
 
+import dev.link.nebula.module.modules.combat.Velocity;
+import dev.link.nebula.module.modules.movement.Fly;
+import dev.link.nebula.module.modules.movement.Speed;
 import dev.link.nebula.module.modules.movement.Sprint;
+import dev.link.nebula.module.modules.player.NoFall;
+import dev.link.nebula.module.modules.render.ESP;
+import dev.link.nebula.module.modules.render.Fullbright;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -15,10 +21,25 @@ public class ModuleManager {
         instance = this;
         modules = new ArrayList<>();
 
-        // Register modules here
-        registerModule(new Sprint());
+        // Combat modules
+        registerModule(new Velocity());
 
-        // Add more modules here as you create them
+        // Movement modules
+        registerModule(new Sprint());
+        registerModule(new Fly());
+        registerModule(new Speed());
+
+        // Player modules
+        registerModule(new NoFall());
+
+        // Render modules
+        registerModule(new Fullbright());
+        registerModule(new ESP());
+
+        System.out.println("Registered modules:");
+        for (Module module : modules) {
+            System.out.println(" - " + module.getName() + " (" + module.getCategory().getName() + ")");
+        }
     }
 
     private void registerModule(Module module) {
