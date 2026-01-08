@@ -1,6 +1,6 @@
 package dev.link.nebula.handler;
 
-import dev.link.nebula.gui.ClickGUI;
+import dev.link.nebula.gui.AdvancedClickGUI;
 import net.minecraft.client.Minecraft;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.common.gameevent.InputEvent;
@@ -13,7 +13,7 @@ public class KeyBindHandler {
     @SubscribeEvent
     public void onKeyPress(InputEvent.KeyInputEvent event) {
         if (Keyboard.isKeyDown(GUI_KEY)) {
-            Minecraft.getMinecraft().displayGuiScreen(new ClickGUI());
+            Minecraft.getMinecraft().displayGuiScreen(new AdvancedClickGUI());
         }
     }
 }
