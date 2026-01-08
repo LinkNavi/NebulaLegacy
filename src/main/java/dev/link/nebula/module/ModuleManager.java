@@ -1,10 +1,15 @@
 package dev.link.nebula.module;
 
+import dev.link.nebula.module.modules.combat.AutoClicker;
 import dev.link.nebula.module.modules.combat.Velocity;
 import dev.link.nebula.module.modules.movement.Fly;
 import dev.link.nebula.module.modules.movement.Speed;
 import dev.link.nebula.module.modules.movement.Sprint;
+import dev.link.nebula.module.modules.player.AntiBot;
+import dev.link.nebula.module.modules.player.Eagle;
 import dev.link.nebula.module.modules.player.NoFall;
+import dev.link.nebula.module.modules.player.Reach;
+import dev.link.nebula.module.modules.render.AntiBlind;
 import dev.link.nebula.module.modules.render.ESP;
 import dev.link.nebula.module.modules.render.Fullbright;
 
@@ -23,6 +28,7 @@ public class ModuleManager {
 
         // Combat modules
         registerModule(new Velocity());
+        registerModule(new AutoClicker());
 
         // Movement modules
         registerModule(new Sprint());
@@ -31,10 +37,14 @@ public class ModuleManager {
 
         // Player modules
         registerModule(new NoFall());
+        registerModule(new AntiBot());
+        registerModule(new Reach());
+        registerModule(new Eagle());
 
         // Render modules
         registerModule(new Fullbright());
         registerModule(new ESP());
+        registerModule(new AntiBlind());
 
         System.out.println("Registered modules:");
         for (Module module : modules) {
